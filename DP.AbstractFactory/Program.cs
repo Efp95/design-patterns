@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DP.AbstractFactory.Clients;
+using DP.AbstractFactory.Factories;
+using System;
 
 namespace DP.AbstractFactory
 {
@@ -10,6 +8,13 @@ namespace DP.AbstractFactory
     {
         static void Main(string[] args)
         {
+            var africaContinent = new AnimalWorld<AfricaFactory>();
+            africaContinent.RunFoodChain();
+
+            var americaContinent = new AnimalWorld<AmericaFactory>();
+            americaContinent.RunFoodChain();
+
+            Console.ReadLine();
         }
     }
 }
