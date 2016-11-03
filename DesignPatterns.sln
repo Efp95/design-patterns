@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{448C284E-2CE3-4EC0-889A-BB4AF90C6501}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{09F9ACBA-710C-4E9D-84FA-95113CB87B18}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.AbstractFactory", "DP.AbstractFactory\DP.AbstractFactory.csproj", "{AC63D3D4-9D1E-4B13-89FA-28B599A0431A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.Builder", "DP.Builder\DP.Builder.csproj", "{B02E060A-0C87-45F4-B002-1489879E48C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,11 +23,16 @@ Global
 		{AC63D3D4-9D1E-4B13-89FA-28B599A0431A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC63D3D4-9D1E-4B13-89FA-28B599A0431A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC63D3D4-9D1E-4B13-89FA-28B599A0431A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02E060A-0C87-45F4-B002-1489879E48C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02E060A-0C87-45F4-B002-1489879E48C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02E060A-0C87-45F4-B002-1489879E48C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02E060A-0C87-45F4-B002-1489879E48C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AC63D3D4-9D1E-4B13-89FA-28B599A0431A} = {448C284E-2CE3-4EC0-889A-BB4AF90C6501}
+		{B02E060A-0C87-45F4-B002-1489879E48C0} = {448C284E-2CE3-4EC0-889A-BB4AF90C6501}
 	EndGlobalSection
 EndGlobal
