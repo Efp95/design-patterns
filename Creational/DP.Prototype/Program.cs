@@ -23,7 +23,7 @@ namespace DP.Prototype
             
             originalCustomer.Address.Avenue = "None";
 
-            Console.Read();
+            Console.ReadLine();
         }
     }
 }
