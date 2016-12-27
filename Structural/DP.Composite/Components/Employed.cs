@@ -12,14 +12,6 @@ namespace DP.Composite.Components
         }
 
 
-        public virtual void AddSubordinate(IEmployed subordinate)
-        {
-        }
-
-        public virtual void RemoveSubordinate(IEmployed subordinate)
-        {
-        }
-
         public virtual void Display(int indentation)
         {
             Console.WriteLine($"{new string('-', indentation)}+ Name: {Name}");

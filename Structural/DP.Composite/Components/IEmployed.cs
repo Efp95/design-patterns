@@ -4,9 +4,6 @@
     {
         string Name { get; }
 
-        void AddSubordinate(IEmployed subordinate);
-        void RemoveSubordinate(IEmployed subordinate);
-
         void Display(int indentation);
     }
 }
